@@ -1,0 +1,16 @@
+{
+  "highlighterStyle": "rounded",
+  "highlighterMethods": "css-classes",
+  "highlighters": {
+    "red": "#f00",
+    "aqua": "#0ff",
+    "green": "#0f0",
+    "fuxia": "#ff0090"
+  },
+  "highlighterOrder": [
+    "red",
+    "aqua",
+    "green",
+    "fuxia"
+  ]
+}

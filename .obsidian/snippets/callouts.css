@@ -1,0 +1,135 @@
+/*#####################################################*/
+
+.callout[data-callout-metadata] {
+    border-width: 0px;
+    border-left: 5px solid rgba(var(--callout-color), 0.8);
+    border-radius: 0px;
+    border-color: rgba(var(--callout-color), 0.2);
+} 
+
+body .callout:not([data-callout-metadata*=revert]):not([data-callout=blank-container], [data-callout=multi-column], [data-callout=look]) > .callout-content {
+  padding: 0px;
+  padding-top: var(--size-2-2);
+  padding-left: var(--size-2-2);
+}
+
+body .callout:not([data-callout-metadata*=revert]):not([data-callout=blank-container], [data-callout=multi-column]) {
+  padding: 0px;
+}
+
+body .callout:not([data-callout-metadata*=revert]):not([data-callout=look]):not([data-callout=blank-container], [data-callout=multi-column]):not(.is-collapsible) > .callout-title {
+  background-color: rgba(var(--callout-color), 0.1);
+}
+
+
+.callout-content > p:first-child, .callout-content > ul:first-child, .callout-content > ol:first-child {
+  margin-top: 0px;
+}
+
+.callout-content > p:last-child, .callout-content > ul:last-child, .callout-content > ol:last-child {
+  margin-bottom: 0px;
+}
+  
+  
+/*#####################################################*/
+
+
+body {
+    --callout-title-padding: var(--size-2-1);
+}
+
+.callout {
+	margin-top: var(--size-2-2);
+	margin-bottom: var(--size-2-2);
+  border-radius: 10px !important;
+}
+
+div[data-callout="multi-column"].callout:not(.is-collapsed) {
+	margin-top: var(--size-2-2);
+	margin-bottom: var(--size-2-2);
+}
+
+.callout[data-callout="gray"] {
+    --callout-color: 100, 100, 100;
+    --callout-icon: none;
+}
+
+
+.callout[data-callout="add"] {
+    --callout-color: 150, 150, 150;
+    --callout-icon: lucide-plus;
+}
+
+.callout[data-callout="graveyard"] {
+    --callout-color: 251, 70, 76;
+    --callout-icon: lucide-skull;
+}
+
+.theme-dark .callout[data-callout="ex"] {
+    --callout-color: 210, 210, 210;
+    background-color: transparent;
+    --callout-icon: none;
+}
+.theme-light .callout[data-callout="ex"] {
+  --callout-color: 60, 60, 60;
+  background-color: transparent;
+  --callout-icon: lucide-dot;
+}
+
+.theme-dark .callout[data-callout="theorem"],.theme-dark .callout[data-callout="law"],.theme-dark .callout[data-callout="lemma"] {
+  --callout-color: 246, 162, 96;
+  --callout-icon: lucide-pin;
+}
+.theme-light .callout[data-callout="theorem"],.theme-light .callout[data-callout="law"],.theme-light .callout[data-callout="lemma"] {
+  --callout-color: 236, 117, 0;
+  --callout-icon: lucide-pin;
+}
+
+
+.callout[data-callout="formula"] {
+    --callout-color: 30, 122, 255;
+    --callout-icon: none;
+}
+
+
+.theme-dark .callout[data-callout="definition"] {
+    --callout-color: 83, 223, 221;
+    --callout-icon: none;
+}
+.theme-light .callout[data-callout="definition"] {
+  --callout-color: 25, 200, 180;
+  --callout-icon: none;
+}
+
+
+.callout[data-callout="look"] {
+    --callout-color: 30, 122, 255;
+    --callout-icon: none;
+}
+
+
+.theme-dark .callout[data-callout="algorithm"],.theme-dark .callout[data-callout="rule"] {
+    --callout-color: 138, 163, 220;
+    --callout-icon: lucide-cog;
+}
+.theme-light .callout[data-callout="algorithm"],.theme-light .callout[data-callout="rule"] {
+  --callout-color: 100, 163, 200;
+  --callout-icon: lucide-cog;
+}
+
+.theme-dark {
+    --highlight-mix-blend-mode: normal; /* default for theme-dark is lighten */
+}
+
+
+/*#####################################################*/
+
+
+.callout[data-callout="look"] .callout-title-inner {
+	display: none;
+}
+
+.callout[data-callout="look"] {
+    	padding: 10px;
+	display: flex;
+}

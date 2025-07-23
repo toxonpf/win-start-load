@@ -1,0 +1,12 @@
+.callout {
+  border-radius: 7px ;
+  border-left-width: 0px !important;
+}
+
+.callout-content {
+  padding: 5px  10px 5px 10px !important;
+}
+
+.red{
+  color: red;
+}

@@ -1,1 +1,14 @@
-{}
+{
+  "interfaceFontFamily": "Source Code Pro",
+  "baseFontSize": 16,
+  "textFontFamily": "Source Code Pro",
+  "monospaceFontFamily": "Source Code Pro",
+  "baseFontSizeAction": true,
+  "enabledCssSnippets": [
+    "styles",
+    "columns",
+    "callouts",
+    "canvas",
+    "colors"
+  ]
+}

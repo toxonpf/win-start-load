@@ -1,14 +1,14 @@
 {
   "main": {
-    "id": "3789b16fd9b3bbc1",
+    "id": "ba5c4bc9b228cc77",
     "type": "split",
     "children": [
       {
-        "id": "11c837c354bf5b0d",
+        "id": "6bfcd8f16972ee6e",
         "type": "tabs",
         "children": [
           {
-            "id": "9e4301d4793f62d5",
+            "id": "c1cc19d0bead52fe",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -20,28 +20,28 @@
               "icon": "lucide-file",
               "title": "MAIN"
             },
-            "group": "d3af269a72850bc5"
+            "group": "f4c436eb416e8507"
           }
         ]
       },
       {
-        "id": "429ac634d901d5d5",
+        "id": "80bc7f2f08743257",
         "type": "tabs",
         "children": [
           {
-            "id": "3a53b67e3961b8e6",
+            "id": "79bf028c32dbfc35",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "MAIN.md",
                 "mode": "preview",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
               "title": "MAIN"
             },
-            "group": "d3af269a72850bc5"
+            "group": "f4c436eb416e8507"
           }
         ]
       }
@@ -49,15 +49,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "bc1222755dc82a04",
+    "id": "89c17b3828191485",
     "type": "split",
     "children": [
       {
-        "id": "1fb964f34376b7c1",
+        "id": "4673b5c10083f2ca",
         "type": "tabs",
         "children": [
           {
-            "id": "38c066b22a6ede60",
+            "id": "28798903fdf9f60a",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -70,7 +70,7 @@
             }
           },
           {
-            "id": "4236aa64b1c0543a",
+            "id": "89226e8714d41858",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -87,7 +87,7 @@
             }
           },
           {
-            "id": "b1fc07c813b60ae3",
+            "id": "f34a8e2231fa0ffc",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -100,23 +100,23 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 251.5
   },
   "right": {
-    "id": "750f42026f2bf703",
+    "id": "05148dba40985334",
     "type": "split",
     "children": [
       {
-        "id": "c4a900d69f1f9e4d",
+        "id": "b24474b93c07f5b0",
         "type": "tabs",
         "children": [
           {
-            "id": "ef53ae69f9c01600",
+            "id": "ca8add8dead05420",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MAIN.md",
+                "file": "study/kirik.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,25 +126,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Обратные ссылки для MAIN"
+              "title": "Обратные ссылки для kirik"
             }
           },
           {
-            "id": "07b98e51d5938bcd",
+            "id": "8b7b263bd167c3e3",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MAIN.md",
+                "file": "study/kirik.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Исходящие ссылки из MAIN"
+              "title": "Исходящие ссылки из kirik"
             }
           },
           {
-            "id": "ea817efbb1b834cb",
+            "id": "9e8331048adb7e92",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -159,25 +159,76 @@
             }
           },
           {
-            "id": "1b730b39da75f861",
+            "id": "29943fa6c6f3d9df",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "MAIN.md",
+                "file": "study/kirik.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Структура MAIN"
+              "title": "Структура kirik"
+            }
+          },
+          {
+            "id": "824ac1783fccda86",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          },
+          {
+            "id": "ca4410c259715b6a",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {},
+              "icon": "spreadsheet",
+              "title": "Advanced Tables"
+            }
+          },
+          {
+            "id": "b744535addb7efb1",
+            "type": "leaf",
+            "state": {
+              "type": "juggl_nodes",
+              "state": {},
+              "icon": "ag-node-list",
+              "title": "Juggl nodes"
+            }
+          },
+          {
+            "id": "821382a64f8eb316",
+            "type": "leaf",
+            "state": {
+              "type": "juggl_style",
+              "state": {},
+              "icon": "ag-style",
+              "title": "Juggl style"
+            }
+          },
+          {
+            "id": "a3f6bd51b30e2774",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           }
-        ]
+        ],
+        "currentTab": 8
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 200,
     "collapsed": true
   },
   "left-ribbon": {
@@ -187,13 +238,65 @@
       "canvas:Создать новый холст": false,
       "daily-notes:Сегодняшняя заметка": false,
       "templates:Вставить шаблон": false,
-      "command-palette:Открыть палитру команд": false
+      "command-palette:Открыть палитру команд": false,
+      "markdown-importer:Импорт Markdown-файлов": false,
+      "audio-recorder:Начать/остановить запись": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-importer:Open Importer": false,
+      "juggl:Juggl global graph": false,
+      "obsidian-excalidraw-plugin:Создать новый чертеж": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "9e4301d4793f62d5",
+  "active": "c1cc19d0bead52fe",
   "lastOpenFiles": [
-    "exes/AdobeGenP.exe",
-    "exes",
-    "MAIN.md"
+    "MAIN.md",
+    "Без названия.md",
+    "2025-07-16.md",
+    "этапы/забрать семя солнца.md",
+    "этапы/алхимические реакции.canvas",
+    "FOR DEV.md",
+    "README.md",
+    "SOURSES/Pasted image 20250715014549.png",
+    "SOURSES/Pasted image 20250715014733.png",
+    "SOURSES/Pasted image 20250715014651.png",
+    "Pasted image 20250715014515.png",
+    "этапы/тир лист перков.md",
+    "этапы/убить алхимика.md",
+    "Gemini Chats/New Chat 4.gemini",
+    "Gemini Chats/New Chat 5.gemini",
+    "Excalidraw/Drawing 2025-07-11 12.58.16.excalidraw.md",
+    "Gemini Chats/New Chat 3.gemini",
+    "Gemini Chats/New Chat 2.gemini",
+    "Gemini Chats/New Chat 1.gemini",
+    "этапы/приносим солнце к тёмному солнцу и сталкиваем их.md",
+    "этапы/сжечь Kolmisilmä на солнце.md",
+    "инф/мобы/Kolmisilmä.md",
+    "этапы/забираем ноту.md",
+    "инф/предметы/Kuulokivi.md",
+    "SOURSES/Item_musicstone.webp",
+    "этапы/скормить все kivi солнцу.md",
+    "SOURSES/Item_stonestone 1.webp",
+    "SOURSES/Item_kakke.webp",
+    "SOURSES/Item_waterstone.webp",
+    "SOURSES/Spell_summon_egg.webp",
+    "SOURSES/Item_brimstone.webp",
+    "этапы/скормить солнцу яйца.md",
+    "этапы/взорвать семя солнца на луне.md",
+    "этапы/приоритетность перков.canvas",
+    "этапы/собрать перки.md",
+    "Excalidraw/Drawing 2025-07-10 22.00.21.excalidraw.md",
+    "инф/заклинания/энергетический шар.md",
+    "инф/предметы/семя солнца.md",
+    "этапы/основные волшебные палочки.md",
+    "этапы/алхимия.md",
+    "этапы/сломать реролл машину.md",
+    "этапы/перейти в параллельный мир.md",
+    "Excalidraw/Drawing 2025-07-10 22.22.53.excalidraw.md",
+    "Excalidraw",
+    "Gemini Chats/New Chat.gemini",
+    "Gemini Chats",
+    "алхимия",
+    "инф.zip"
   ]
 }
